@@ -195,9 +195,9 @@ catalog → generated providers.{go,rs,json,yml} → cuttinggate, herd, flock-pr
 
 - `estate/herd` → `ranch/mesh/router/herd` — stable alias for the herd dir, repointed 2026-10-02
 - `estate/mesh` → `ranch/mesh` — stable alias for the mesh dir
-- `/home/toxic/ranch` → `/home/toxic/estate/ranch` — home-root shortcut
-- `/home/toxic/projects` → `/home/toxic/estate/ranch` — home-root shortcut
-- `/home/toxic/workspace/skills` → `/home/toxic/estate/skills` — skills shortcut
+- `/home/toxic/ranch` → `/home/toxic/pens/estate/ranch` — home-root shortcut
+- `/home/toxic/projects` → `/home/toxic/pens/estate/ranch` — home-root shortcut
+- `/home/toxic/workspace/skills` → `/home/toxic/pens/estate/skills` — skills shortcut
 - Dots (.tau, .omp, .ripgreprc, .bashrc, .config, …) → estate-controlled targets
 
 Deprecated but load-bearing: `/home/toxic/estate` is a real directory again, not a
