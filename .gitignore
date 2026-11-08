@@ -1,0 +1,22 @@
+# mesh/.gitignore — thin coordinator (submoduleless doctrine)
+# '*' ignores every product dir so the pen is never a monorepo.
+# No submodules. Regenerate: pensctl generate-ignore
+*
+!.gitignore
+!README.md
+!LICENSE
+!package.json
+!mise.toml
+!AGENTS.md
+!bin/
+!bin/**
+!docs/
+!docs/**
+!ssot/
+!ssot/**
+!pitchfork.toml
+!pitchfork.d/
+!pitchfork.d/**
+!bunfig.toml
+!moon.yml
+!.envrc
