@@ -1,0 +1,33 @@
+{
+  "name": "mesh",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tool Federation & Routing Layer: multi-provider LLM routing, MCP federation, and browser automation.",
+  "type": "module",
+  "bin": {
+    "mesh-gateway": "./bin/gateway.ts",
+    "mesh-health": "./bin/health.ts"
+  },
+  "scripts": {
+    "dev": "bun --hot run src/main.ts",
+    "build": "bun build --minify --target bun src/main.ts --outfile dist/mesh",
+    "test": "bun test",
+    "typecheck": "tsgo --noEmit -p tsconfig.json",
+    "lint": "biome lint .",
+    "fmt": "biome format . --write",
+    "check": "bun lint && bun typecheck"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "@biomejs/biome": "1.9.0",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "author": "toxicwind",
+  "license": "UNLICENSED"
+}
